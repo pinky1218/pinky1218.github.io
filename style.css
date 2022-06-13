@@ -1,0 +1,24 @@
+.box-wrap:hover .img-wrap img {
+    transform: scale(1.1);
+}
+
+.img-wrap {
+    overflow: hidden;
+}
+
+.box-wrap .img-wrap img {
+    transition: all .3s;
+}
+
+.bdrs-10{
+    border-radius: 20px;
+}
+
+.bg-pink {
+    --bs-bg-opacity: 100;
+    background-color: rgba(216,173,160), var(216,173,160) !important;
+  }
+
+  .bg{
+    color: rgb(216, 173, 160);
+}
